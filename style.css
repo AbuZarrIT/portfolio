@@ -15,9 +15,6 @@ a {
 p {
     color: rgb(77, 66, 66);
 }
-.main {
-
-}
 .main__title {
     text-align: center;
     color: rgb(109, 105, 105);
@@ -48,8 +45,6 @@ h4 {
 }
 .main__container li {
     color: rgb(65, 65, 68);
-}
-.footer {
 }
 .footer__contact {
     display: flex;
@@ -87,12 +82,27 @@ h4 {
         width: 150px;
     }
 }
-@media (max-width: 400px) {
+@media (max-width: 390px) {
     body {
         padding-left: 0px;
         padding-right: 0px;
     }
     .main__myDescription__img img{
         width: 120px;
+    }
+    .main__container__pros{
+        width: 58px;
+    }
+    .main__container__skills{
+        width: 58px;
+    }
+    .main__container__languages{
+        width: 58px;
+    }
+    .main__container li {
+        font-size: 12px;
+    }
+    h4 {
+        font-size: 14px;
     }
 }
