@@ -82,7 +82,7 @@ h4 {
         width: 150px;
     }
 }
-@media (max-width: 390px) {
+@media (max-width: 420px) {
     body {
         padding-left: 0px;
         padding-right: 0px;
@@ -91,16 +91,20 @@ h4 {
         width: 120px;
     }
     .main__container__pros{
-        width: 58px;
+        width: 60px;
     }
     .main__container__skills{
-        width: 58px;
+        width: 60px;
     }
     .main__container__languages{
-        width: 58px;
+        width: 60px;
     }
     .main__container li {
         font-size: 12px;
+    }
+    .main__container {
+        justify-content: left;
+        gap: 80px;
     }
     h4 {
         font-size: 14px;
